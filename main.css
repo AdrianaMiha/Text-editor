@@ -1,0 +1,280 @@
+*{
+    box-sizing: border-box;
+       
+}
+
+body{
+    padding-top: 15px;
+}
+
+.container{
+    margin: 0 auto;
+    width: 810px;
+}
+
+.top, .bottom, .second-step{
+    min-height: 300px;
+    background-color: rgb(236, 236, 236);
+    border: 2px solid lightgray;
+    border-radius: 3px;
+    padding: 10px;
+    position: relative;
+    padding-left: 30px;
+    
+}
+input:focus{
+    outline: none;
+    border-radius: 5px;
+    border: 3px solid rgb(148, 197, 247);
+}
+p{
+    padding-top: 10px;
+   margin-bottom: 8px;
+   margin-top: 10px;
+}
+.area{
+    width: 100%;
+    color: rgb(56, 56, 56);
+    
+}
+#area{
+    font-size: 16px;
+    color: rgb(102, 102, 102);
+    line-height: 23px;
+    resize: none;
+}
+.buttons{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    
+}
+
+.button{
+    width: 60px;
+    border-radius: 5px;
+    height: 35px; 
+    color: white;
+    outline: none;
+}
+#edit{
+    color: black;
+    background-color: orange;
+    margin-right: 5px;
+    }
+#edit:hover{
+    border: 2px solid yellow;
+}
+#style{
+    background-color: dodgerblue;
+}
+#style:hover{
+    border: 2px solid rgb(68, 68, 250);
+}
+#add{
+background-color: red;
+}
+#add:hover{
+    border: 2px solid coral;
+}
+#save{
+background-color: green;
+}
+#save:hover{
+    border: 2px solid darkgreen;
+}
+.hidden{
+    display: none;
+}
+
+.style-block{
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(59, 59, 59);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+label{
+    position: relative;
+    padding-left: 15px;
+    margin-left: 15px;
+    margin-right: 10px;
+    font-weight: normal;
+}
+.radiobox{
+    appearance: none;
+    -webkit-appearance: none;
+}
+
+.radiobox{
+    width: 20px;
+    height: 20px;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    cursor: pointer;
+    background-color: white;
+    position: absolute;
+    top: 50px;
+    z-index: 1;
+}
+
+.radiobox:checked {
+    background-color: dodgerblue;
+    outline: 2px solid white;
+    outline-offset: -10px;
+    background-size: cover;
+    z-index: 5;
+    border-radius: 50%;
+}
+
+select{
+    width: 300px;
+    height: 35px;
+    color: rgb(59, 59, 59);
+    font-size: 18px;
+    margin-bottom: -10px;
+}
+
+.color-btn{
+    background-color: rgb(119, 119, 119);
+    color: white;
+    font-size: 17px;
+    border-radius: 5p;
+    height: 40px;
+    padding: 5px;
+    width: 160px;
+    
+}
+
+.colors{
+    width: 300px;
+    height: 300px;
+    outline: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+.color-box{
+width: 100px;
+height: 100px;
+border: 1px solid #000;
+}
+
+
+.checkbox {
+    appearance: none;
+    -webkit-appearance: none;
+}
+
+.checkbox {
+    width: 15px;
+    height: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: white;
+    position: absolute;
+    bottom: 10px;
+    z-index: 1;
+}
+
+.checkbox:checked {
+    background-image: url(galochka.jpg);
+    background-size: cover;
+    z-index: 5;
+    border-radius: 4px;
+    outline: none;
+    border: 1px solid rgb(52, 147, 241);
+}
+
+#bbbb{
+    margin-bottom: 0px;
+    margin-top: 10px;
+}
+
+
+#table{
+    top: 90px;
+    margin-left: 0;
+    }
+
+
+    .second-step{
+        font-size: 17px;
+    }
+
+.table{
+width: 82%;
+height: 35px;
+margin-bottom: 10px;
+}
+
+.mp{
+    padding-left: 0;
+    margin-left: 0;
+    margin-top: 10px;
+    margin-right: 0;
+}
+
+.onee{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between; 
+    flex-wrap: nowrap;
+    margin-right: 20px;
+}
+
+.last{
+    width: 100px;
+    height: 35px;
+    font-size: 15px;
+}
+
+#list{
+    top: 90px;
+   
+}
+
+#createB{
+    margin-top: 15px;
+    margin-bottom: 30px;
+    background-color: green;
+    width: 120px;
+    font-size: 15px;
+}
+   #createB:hover{
+        border: 2px solid darkgreen;
+    }
+
+   #bW{
+       padding-left: 10px;
+     
+   }
+
+   #CL{
+    padding-left: 10px;
+   }
+
+   #types{
+       font-size: 15px;
+       padding-left: 10px;
+   }
+
+   #createL{
+    margin-top: 15px;
+    margin-bottom: 30px;
+    background-color: green;
+    width: 120px;
+    font-size: 15px;
+   }
